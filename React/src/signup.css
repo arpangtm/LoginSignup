@@ -1,0 +1,87 @@
+#signupform{
+    padding:50px;
+    border:1px solid rgb(231, 240, 255);
+    padding-top:15px;
+    background-color: rgb(188, 252, 241);
+}
+
+#connectgmail{
+    height:7vh;
+    width:370px;
+}
+
+#googlesu{
+    height:9vh;
+    width:270px;
+}
+
+.element{
+    
+    margin:20px;
+}
+
+#signuptxt{
+    padding-bottom: 15px;
+}
+
+.inputfield{
+    border-radius: 10px;
+    height:7vh;
+    width:420px;
+    border: 1px solid rgb(114, 114, 114);
+    
+    font-size: large;
+    outline: none;
+    padding-left: 10px;
+    
+}
+
+input:focus {
+    box-shadow:2px 2px 3px 3px #ccc;
+}
+
+.element #fname,#lname{
+    width:190px;
+    margin-left:10px;
+    margin-right: 5px;
+}
+
+#signupform{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+#submit{
+    height:7vh;
+    width:370px;
+    align-self: center;
+    border-radius: 7px;
+    background-color: #3dfc5d;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+#submitbtn :hover{
+    height:7vh;
+    width:375px;
+    background-color: #53fd6f;
+    cursor: pointer;
+}
+
+
+.loader {
+    /* border: 16px solid #f3f3f3; Light grey */
+    border-top: 5px solid #30a4fd; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
