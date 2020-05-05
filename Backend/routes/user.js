@@ -11,7 +11,7 @@ router.get('/:name/:id',async (req,res)=>{
     // console.log(users.db)
     ///////////////////////////////MONGO DB SERCH FOR USER?/////////////////////////////////////////////////////
     console.log(parseInt(req.params.id,10))
-    console.log("AAyo gandu")
+    
     const bakra=await client.db('user').collection('normal').findOne({_id:parseInt(req.params.id,10)})
     console.log("bakra")
     console.log(bakra)
